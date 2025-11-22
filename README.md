@@ -1,38 +1,123 @@
-Caesar Cipher – Python Implementation
+ Caesar Cipher – Python Encryption & Decryption Tool
 
-A simple and effective Python program that demonstrates the classic Caesar Cipher encryption and decryption technique  one of the oldest and most widely known methods in cryptography.
+A clean and simple Python implementation of the Caesar Cipher, a classic cryptographic technique used for shifting characters in plaintext.
+This project demonstrates fundamental concepts of encryption, ASCII manipulation, loops, and modular arithmetic.
 
- Description
+🔍 Overview
 
-This project allows users to encrypt and decrypt text using a shift-based substitution algorithm.
-The Caesar Cipher works by shifting each letter of the plaintext by a fixed number of positions in the alphabet.
+The Caesar Cipher is one of the oldest known encryption methods, famously used by Julius Caesar to secure military messages.
+This program allows users to:
 
-Example:
-With a shift of 1 →
-A → B, B → C, C → D, and so on.
+✔ Encrypt plaintext
+✔ Decrypt ciphertext
+✔ Use any shift value between 1–25
+✔ Preserve case and punctuation
 
-This cipher was famously used by Julius Caesar to send encoded messages to his generals.
+It’s a great beginner-friendly cryptography project that strengthens logic-building and Python fundamentals.
 
 ✨ Features
 
-🔐 Encrypt any text message using a shift value (1–25)
+🔐 Encrypt text using a chosen shift value
 
-🔓 Decrypt encrypted messages with the same shift
+🔓 Decrypt previously encrypted text
 
- Preserves uppercase/lowercase letters
+🔤 Preserves uppercase/lowercase
 
- Keeps spaces, numbers, and punctuation unchanged
+🔣 Keeps numbers, spaces & punctuation unchanged
 
- Simple and interactive command-line interface
+🧮 Uses ASCII-based character shifting
 
-📌 Requirements
+💻 Interactive command-line interface
+
+📁 Project Structure
+SCT_CS_1/
+│
+├── caesar_cipher.py        # Main program (user interface)
+├── encrypt.py              # Encryption logic
+├── decrypt.py              # Decryption logic
+├── README.md               # Project documentation
+└── (optional: screenshots/)
+
+🧠 How the Cipher Works
+
+Each letter is shifted by n positions:
+
+Encryption Formula:
+
+E(x) = (x + n) mod 26
+
+
+Decryption Formula:
+
+D(x) = (x - n) mod 26
+
+
+Where:
+
+x = letter index (0–25)
+
+n = shift value
+
+mod 26 ensures wrap-around (Z → A)
+
+▶️ Usage
+
+Run the program:
+
+python caesar_cipher.py
+
+
+Follow the on-screen menu:
+
+Encrypt a message
+
+Decrypt a message
+
+Exit
+
+🧪 Example Output
+=== Caesar Cipher Encryption/Decryption Tool ===
+
+Choose an option:
+1. Encrypt a message
+2. Decrypt a message
+3. Exit
+
+Enter your choice (1/2/3): 1
+Enter the message to encrypt: Hello World
+Enter the shift value (1-25): 3
+
+Encrypted message: Khoor Zruog
+
+Enter your choice (1/2/3): 2
+Enter the message to decrypt: Khoor Zruog
+Enter the shift value used: 3
+
+Decrypted message: Hello World
+
+📦 Requirements
 
 Python 3.x
+(No external libraries needed.)
 
-No external libraries are needed  everything is implemented using built-in Python functions.
+🔧 Installation
 
-Acknowledgments
+Clone this repository:
 
-Julius Caesar the originator of this cipher
+git clone https://github.com/Axatshah12/SCT_CS_1.git
+cd SCT_CS_1
 
-Cryptography communities who preserve classical encryption methods
+
+Run the script as shown above.
+
+📄 License
+
+This project is licensed under the MIT License.
+
+🙌 Acknowledgments
+
+Julius Caesar for inspiring this cipher
+
+Cryptography learners and enthusiasts
+
+Anyone exploring the basics of cybersecurity
