@@ -3,7 +3,7 @@
 A clean and simple Python implementation of the Caesar Cipher, a classic cryptographic technique used for shifting characters in plaintext.
 This project demonstrates fundamental concepts of encryption, ASCII manipulation, loops, and modular arithmetic.
 
-🔍 Overview
+ Overview
 
 The Caesar Cipher is one of the oldest known encryption methods, famously used by Julius Caesar to secure military messages.
 This program allows users to:
@@ -29,7 +29,7 @@ It’s a great beginner-friendly cryptography project that strengthens logic-bui
 
 💻 Interactive command-line interface
 
-📁 Project Structure
+ Project Structure
 SCT_CS_1/
 │
 ├── caesar_cipher.py        # Main program (user interface)
@@ -98,21 +98,14 @@ Decrypted message: Hello World
 📦 Requirements
 
 Python 3.x
-(No external libraries needed.)
 
-🔧 Installation
+ Installation
 
 Clone this repository:
 
-
 cd SCT_CS_1
 
-
 Run the script as shown above.
-
-📄 License
-
-This project is licensed under the MIT License.
 
 🙌 Acknowledgments
 
