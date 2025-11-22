@@ -1,6 +1,6 @@
 Caesar Cipher – Python Implementation
 
-A simple and effective Python program that demonstrates the classic Caesar Cipher encryption and decryption technique — one of the oldest and most widely known methods in cryptography.
+A simple and effective Python program that demonstrates the classic Caesar Cipher encryption and decryption technique  one of the oldest and most widely known methods in cryptography.
 
  Description
 
