@@ -104,7 +104,7 @@ Python 3.x
 
 Clone this repository:
 
-git clone https://github.com/Axatshah12/SCT_CS_1.git
+
 cd SCT_CS_1
 
 
